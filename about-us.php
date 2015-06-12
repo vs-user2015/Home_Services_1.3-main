@@ -1,6 +1,7 @@
 <?php 
 	include "include/header.inc.php" ; 
 	include "include/article.inc.php" ; 
+	echo "<h1>Hello world.</h1>";
 ?>
 
 <!-- SECTION -->	
