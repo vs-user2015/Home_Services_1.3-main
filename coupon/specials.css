@@ -1,0 +1,71 @@
+html {
+	font-family: "Open Sans",Arial,Myriad Pro;
+}
+
+#coupon-deal {
+	margin: 0 auto;
+	width: 325px;
+}
+
+.logo {
+	margin: 0 0 20px;
+	width: 100%;
+}
+
+.day-of-week {
+	height: 0;
+	position: relative;
+}
+
+.day-of-week p{
+	color: #fff;
+	font-size: 20px;
+	margin: 0;
+	position: relative;
+	top: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.button {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.close,
+.print {
+	color: #000;
+	display: inline-block;
+	text-align: center;
+	background: #ccc;
+	border: 1px solid #9a9a9a;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 5px 40px;
+	margin: 0 10px 0 0;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.coupon-image {
+	margin: 0 0 20px;
+}
+
+@media (max-width: 320px){
+#coupon-deal {	
+	width: 100%
+}
+
+.button {
+	margin: 0 auto;
+	width: 95%;
+}
+
+.logo,
+.coupon-image {
+	display: block;
+	width: 100%
+}
+}
